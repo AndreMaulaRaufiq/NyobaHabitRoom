@@ -28,6 +28,7 @@ abstract class HabitDatabase: RoomDatabase() {
                     object : RoomDatabase.Callback() {
                         override fun onCreate(db: SupportSQLiteDatabase) {
                             super.onCreate(db)
+                            TODO()
                         }
                     }
                 )

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    android:id="@+id/cobafragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -91,7 +93,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="16dp"
         android:textColor="@color/white"
-        android:text="Task Name"
+        android:text="Edit"
         android:fontFamily="@font/poppins_semibold"
         android:textSize="12sp"/>
 
@@ -127,20 +129,21 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/white"
+        app:tint="@color/G"
         android:clickable="true"
         android:focusable="true"
         android:src="@drawable/ic_baseline_add_24" />
 
-    <TextView
-        android:id="@+id/tv_emptyView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Add a habit! "
-        android:textColor="@android:color/white"
-        android:textSize="20sp"
-        android:textStyle="italic"
-        android:visibility="gone" />
-
+<!--    <TextView-->
+<!--        android:id="@+id/tv_emptyView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Add a habit! "-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="italic"-->
+<!--        android:visibility="gone" />-->
 
 </RelativeLayout>
